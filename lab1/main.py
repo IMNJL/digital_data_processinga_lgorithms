@@ -89,7 +89,7 @@ def measure_correlation_time(img, sample, scales):
     return time_results
 
 img_main = load_pcx("input/main.pcx")
-img_own = load_pcx("own_7.pcx")
+img_own = load_pcx("input/own_7.pcx")
 img_foreign = load_pcx("input/foreign_7.pcx")
 
 if img_main is None or img_own is None or img_foreign is None:
